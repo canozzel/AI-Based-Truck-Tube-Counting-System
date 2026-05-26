@@ -29,21 +29,40 @@ The system combines:
 - YOLOv11 Object Detection
 - PPO-based Reinforcement Learning
 - Adaptive Confidence Threshold Selection
-- Multi-view Image Analysis
+- Multi-view Truck Analysis
 - Diagonal Traversal Grid Counting
 - Explainable AI Dashboard
 
 to estimate the total number of gas cylinders loaded on transport trucks.
 
-Unlike traditional fixed-threshold pipelines, the system dynamically selects the optimal confidence threshold using a Reinforcement Learning agent to improve counting stability across different detection distributions.
+Unlike traditional fixed-threshold counting systems, the platform dynamically selects the optimal confidence threshold using a PPO-based Reinforcement Learning agent to improve counting stability across varying detection distributions.
+
+---
+
+# Dashboard Preview
+
+<p align="center">
+  <img src="screenshots/dashboard.png" width="100%">
+</p>
+
+---
+
+# Key Features
+
+- YOLOv11-powered object detection
+- PPO Reinforcement Learning integration
+- Adaptive confidence threshold selection
+- Multi-view truck analysis
+- 3D structural counting estimation
+- Diagonal traversal grid algorithm
+- Explainable AI dashboard
+- Confidence analytics
+- Real-time visualization pipeline
+- FastAPI-powered backend
 
 ---
 
 # System Architecture
-
-<p align="center">
-  <img src="assets/architecture.png" width="90%">
-</p>
 
 ```text
 Image Upload
@@ -60,54 +79,6 @@ Diagonal Traversal Counting
       ↓
 Interactive Dashboard
 ```
-
----
-
-# Dashboard Preview
-
-## Main Dashboard
-
-<p align="center">
-  <img src="screenshots/dashboard.png" width="100%">
-</p>
-
----
-
-## Detection Visualization
-
-<p align="center">
-  <img src="screenshots/detection.png" width="100%">
-</p>
-
----
-
-## PPO Threshold Selection
-
-<p align="center">
-  <img src="screenshots/rl-threshold.png" width="100%">
-</p>
-
----
-
-## Confidence Distribution
-
-<p align="center">
-  <img src="screenshots/histogram.png" width="100%">
-</p>
-
----
-
-# Key Features
-
-- Adaptive PPO-based threshold selection
-- YOLOv11-powered object detection
-- Multi-view truck analysis
-- Explainable AI visualization
-- Confidence analytics
-- Structural diagonal traversal counting
-- 3D count estimation
-- FastAPI-powered inference backend
-- Real-time dashboard visualization
 
 ---
 
@@ -149,10 +120,10 @@ This enables approximate 3D counting from multi-view 2D images.
 
 | Metric | Result |
 |---|---|
-| Grid Structure | 9 × 7 |
+| Grid Structure | 8 × 7 |
 | Layer Count | 5 |
 | RL Threshold | 55% |
-| Estimated Total Count | 315 |
+| Estimated Total Count | 280 |
 
 ---
 
@@ -204,10 +175,8 @@ ai-truck-tube-counting/
 │
 ├── README.md
 ├── LICENSE
-│
-├── screenshots/
-├── docs/
-└── assets/
+└── screenshots/
+    └── dashboard.png
 ```
 
 ---
