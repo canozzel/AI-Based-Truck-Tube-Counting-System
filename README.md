@@ -38,7 +38,15 @@ Unlike traditional fixed-threshold counting systems, the platform dynamically se
 # Dashboard Preview
 
 <p align="center">
-  <img src="screenshots/dashboard.png" width="100%">
+  <img src="screenshots/APP_1.png" width="100%">
+</p>
+
+<p align="center">
+  <img src="screenshots/Screenshotnum13.png" width="100%">
+</p>
+
+<p align="center">
+  <img src="screenshots/Screenshotnum14.png" width="100%">
 </p>
 
 ---
