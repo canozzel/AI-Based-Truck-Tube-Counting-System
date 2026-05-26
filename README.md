@@ -203,5 +203,4 @@ MIT License
 
 Backend & AI Systems Enthusiast
 
-- LinkedIn: https://linkedin.com/in/YOUR_LINK
-- GitHub: https://github.com/YOUR_USERNAME
+- LinkedIn: https://linkedin.com/in/canozzel  
