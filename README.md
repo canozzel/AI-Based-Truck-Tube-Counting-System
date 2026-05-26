@@ -4,10 +4,6 @@
 
 ### YOLOv11 + PPO Reinforcement Learning + 3D Structural Counting
 
-<p align="center">
-  <img src="screenshots/dashboard.png" width="100%">
-</p>
-
 <br>
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python)
